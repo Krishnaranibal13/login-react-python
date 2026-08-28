@@ -36,6 +36,6 @@ services:
     volumes:
       - ./frontend:/code/frontend
     ports:
-      - 8080:3000
+      - 80:80
     depends_on:
       - mysql
